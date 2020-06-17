@@ -1203,11 +1203,39 @@ textarea:focus {
   .col-Infrastructure {
     min-width: 100%;
   }
+
+  .col-Agro p,
+  .col-Automotive p,
+  .col-Infrastructure p{
+    min-width: 100%;
+    padding: 0px 19px;
+    text-align: justify;
+  }
+
+  .col-Agro h5,
+  .col-Automotive h5,
+  .col-Infrastructure h5{
+    padding: 5px 0px 0px 20px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .header-area .is-sticky #stickyMenu {
     background-color: #152535;
+  }
+
+  .col-Agro p,
+  .col-Automotive p,
+  .col-Infrastructure p{
+    min-width: 100%;
+    padding: 0px 19px;
+    text-align: justify;
+  }
+
+  .col-Agro h5,
+  .col-Automotive h5,
+  .col-Infrastructure h5{
+    padding: 5px 0px 0px 20px;
   }
 }
 
