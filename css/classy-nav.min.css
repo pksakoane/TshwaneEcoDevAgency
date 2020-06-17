@@ -149,7 +149,7 @@ img {
 .classy-nav-buttons {
     border-right: 1px solid rgba(51, 51, 51, 0.088);
     padding: 33px 5px 21px 5px;
-    height: 80px !important;
+    min-height: 80px;
 }
 
 .classy-nav-buttons-home {
@@ -866,8 +866,9 @@ img {
     .classy-nav-buttons {
         height: auto;
         padding: 0 !important;
-        min-height: 5px !important;
+        min-height: 75px !important;
     }
+
 
     .breakpoint-on .classynav ul li .dropdown li .dropdown li a {
         color: #ffffff;
@@ -877,7 +878,7 @@ img {
         background-color: transparent !important;
     }
 
-    .classynav ul li:hover{
+    .classynav ul li:hover {
         pointer-events: inherit !important;
     }
 }
@@ -888,9 +889,8 @@ img {
     }
 
     .classy-nav-buttons {
-        height: auto;
         padding: 0 !important;
-        height: 57px !important;
+        min-height: 77px !important;
     }
 
     .breakpoint-off .classynav ul li .dropdown {
@@ -900,6 +900,24 @@ img {
     .breakpoint-on .classynav ul li .dropdown li .dropdown li a {
         color: #ffffff;
     }
+
+    .classy-nav-buttons {
+        border-right: none;
+    }
+
+    .breakpoint-on .classynav ul li.has-down>a::after,
+    .breakpoint-on .classynav ul li.megamenu-item>a::after {
+        top: 28px;
+        right: 23px;
+    }
+
+    .header-area .newspaper-main-menu .classy-navbar .classynav>ul>li>a {
+        padding: 22px 12px 13px 12px !important;
+    }
+
+    .breakpoint-on .classynav>ul>li>a {
+        border-bottom: none;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -908,9 +926,8 @@ img {
     }
 
     .classy-nav-buttons {
-        height: auto;
         padding: 0 !important;
-        height: 55px !important;
+        min-height: 75px !important;
     }
 
     .breakpoint-off .classynav ul li .dropdown {
@@ -924,4 +941,29 @@ img {
     .social-icons {
         display: none !important;
     }
+
+    .breakpoint-on .classynav ul li a {
+        padding: 0 10px;
+        min-height: 58px;
+        line-height: 38px
+    }
+
+    .classy-nav-buttons {
+        border-right: none;
+    }
+
+    .breakpoint-on .classynav ul li.has-down>a::after,
+    .breakpoint-on .classynav ul li.megamenu-item>a::after {
+        top: 23px;
+        right: 23px;
+    }
+
+    .header-area .newspaper-main-menu .classy-navbar .classynav>ul>li>a {
+        padding: 22px 12px 13px 12px !important;
+    }
+
+    .breakpoint-on .classynav>ul>li>a {
+        border-bottom: none;
+    }
+
 }
