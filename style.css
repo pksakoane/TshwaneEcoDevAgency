@@ -11,24 +11,24 @@
 
 
 @font-face {
-  font-family:'Calibri';
+  font-family: 'Calibri';
   src: url(fonts/Calibri.ttf) format('truetype');
   src: url(fonts/Calibri.eot) format('embedded-opentype'),
-  url(fonts/CalibriBold.eot) format('embedded-opentype'),
-  url(fonts/Calibri.woff) format('woff'),
-  url(fonts/CalibriBold.woff) format('woff');
+    url(fonts/CalibriBold.eot) format('embedded-opentype'),
+    url(fonts/Calibri.woff) format('woff'),
+    url(fonts/CalibriBold.woff) format('woff');
 }
 
 @font-face {
-  font-family:'Century Gothic';
+  font-family: 'Century Gothic';
   src: url(fonts/CenturyGothic.ttf) format("truetype");
   src: url(fonts/CenturyGothicBold.ttf) format("truetype"),
-  url(fonts/CenturyGothic.eot) format("embedded-opentype"),
-  url(fonts/centuryGothicBold.eot) format("embedded-opentype"),
-  url(fonts/CenturyGothic.woff) format("woff"),
-  url(fonts/centuryGothicBold.woff) format("woff"),
-  url(fonts/CenturyGothic.woff2) format("woff2"),
-  url(fonts/centuryGothicBold.woff2) format("woff2");
+    url(fonts/CenturyGothic.eot) format("embedded-opentype"),
+    url(fonts/centuryGothicBold.eot) format("embedded-opentype"),
+    url(fonts/CenturyGothic.woff) format("woff"),
+    url(fonts/centuryGothicBold.woff) format("woff"),
+    url(fonts/CenturyGothic.woff2) format("woff2"),
+    url(fonts/centuryGothicBold.woff2) format("woff2");
 }
 
 
@@ -38,7 +38,7 @@
 }
 
 body {
-  font-family:'Calibri';
+  font-family: 'Calibri';
   font-size: 14px;
   width: 100%;
 }
@@ -335,7 +335,7 @@ img {
   width: 50px;
   height: auto;
   float: left;
-  padding:0 3% 0 0;
+  padding: 0 3% 0 0;
 }
 
 .contact-info {
@@ -417,6 +417,14 @@ img {
   width: 100%;
 }
 
+#instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+
 .image-tags {
   position: absolute;
   left: 10px;
@@ -449,27 +457,28 @@ img {
 }
 
 .goog-te-banner-frame.skiptranslate {
-	display: none !important;
+  display: none !important;
 }
 
 .goog-te-menu2 {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .goog-te-gadget {
-	font-family: Roboto, "Open Sans", sans-serif !important;
-	text-transform: uppercase;
+  font-family: Roboto, "Open Sans", sans-serif !important;
+  text-transform: uppercase;
 }
+
 .goog-te-gadget-simple {
-	background-color: rgba(255, 255, 255, 0.2) !important;
-	border: 1px solid rgba(255, 255, 255, 0.5) !important;
-	padding: 8px !important;
-	border-radius: 4px !important;
-	font-size: 1rem !important;
-	line-height: 2rem !important;
-	display: inline-block;
-	cursor: pointer;
-	zoom: 1;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  padding: 8px !important;
+  border-radius: 4px !important;
+  font-size: 1rem !important;
+  line-height: 2rem !important;
+  display: inline-block;
+  cursor: pointer;
+  zoom: 1;
 }
 
 /*Accordion*/
@@ -654,28 +663,28 @@ tspan {
 }
 
 .copyright-link {
- font-style: italic;
+  font-style: italic;
 }
 
 .map {
-  height:350px; 
-  width:100%; 
-  margin:70px 0 -79px 0;
+  height: 350px;
+  width: 100%;
+  margin: 70px 0 -79px 0;
   padding: 0;
   border: none !important;
 }
 
 label.error {
-  color:red;
+  color: red;
 }
 
-.important-links li > a {
- font-weight: bold;
- font-size: 15px;
- color: #0F4C2D;
+.important-links li>a {
+  font-weight: bold;
+  font-size: 15px;
+  color: #0F4C2D;
 }
 
-.important-links li > a:hover {
+.important-links li>a:hover {
   color: #7BB242;
 }
 
@@ -1206,7 +1215,7 @@ textarea:focus {
 
   .col-Agro p,
   .col-Automotive p,
-  .col-Infrastructure p{
+  .col-Infrastructure p {
     min-width: 100%;
     padding: 0px 19px;
     text-align: justify;
@@ -1214,7 +1223,7 @@ textarea:focus {
 
   .col-Agro h5,
   .col-Automotive h5,
-  .col-Infrastructure h5{
+  .col-Infrastructure h5 {
     padding: 5px 0px 0px 20px;
   }
 }
@@ -1226,7 +1235,7 @@ textarea:focus {
 
   .col-Agro p,
   .col-Automotive p,
-  .col-Infrastructure p{
+  .col-Infrastructure p {
     min-width: 100%;
     padding: 0px 19px;
     text-align: justify;
@@ -1234,7 +1243,7 @@ textarea:focus {
 
   .col-Agro h5,
   .col-Automotive h5,
-  .col-Infrastructure h5{
+  .col-Infrastructure h5 {
     padding: 5px 0px 0px 20px;
   }
 }
